@@ -6,45 +6,100 @@
   <style>
     body {
       font-family: sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2a7f62;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: #2a7f62;
+      font-weight: bold;
+    }
+
+    section {
       padding: 40px;
-      background: #f5f5f5;
       max-width: 800px;
       margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 8px;
     }
-    h1 {
-      color: #2a7f62;
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
     }
-    section {
-      margin-bottom: 30px;
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>Joice Meriele - QA e Testes de Software</h1>
-  
-  <section>
-    <h2>Sobre mim</h2>
-    <p>Sou analista de testes com experiência em testes manuais e automação com Cypress e Selenium. Apaixonada por qualidade de software, também tenho experiência com SQL, Postman, metodologias ágeis e ferramentas como Jira.</p>
-  </section>
 
-  <section>
-    <h2>Habilidades Técnicas</h2>
-    <ul>
-      <li>Testes Manuais, Regressão, Integração</li>
-      <li>Testes de API: Postman, Swagger</li>
-      <li>Java, Spring Boot, SQL Server, Oracle</li>
-    </ul>
-  </section>
+<header>
+  <h1>Joice Meriele</h1>
+  <p>Analista de Qualidade de Software</p>
+</header>
 
-  <section>
-    <h2>Projetos</h2>
-    <p>🔧 Em breve aqui: exemplos de testes automatizados e projetos pessoais.</p>
-  </section>
+<nav>
+  <a href="#sobre">Sobre mim</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#projetos">Projetos</a>
+  <a href="#contato">Contato</a>
+  <a href="tipos-de-testes.html" target="_blank">Tipos de Testes</a>
+</nav>
 
-  <section>
-    <h2>Contato</h2>
-    <p>Email: seuemail@exemplo.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/seulinkedin" target="_blank">/seulinkedin</a></p>
-  </section>
+<section id="sobre">
+  <h2>Sobre mim</h2>
+  <p>Sou analista de testes com experiência em QA manual e automação com ferramentas como Cypress, Selenium e Postman.</p>
+  <img src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*laNWTLNprU6dyFk2dl4_yw.png" alt="Imagem de qualidade de software">
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades Técnicas</h2>
+  <ul>
+    <li>Testes de API: Postman, Swagger</li>
+    <li>Linguagens: Java, Spring, JavaScript</li>
+    <li>Banco de Dados: Oracle, SQL Server, PostgreSQL</li>
+    <li>Metodologias Ágeis: Scrum, Kanban</li>
+  </ul>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+  <p>Exemplos de automações e testes para aplicações web e APIs. Em breve com links para repositórios no GitHub.</p>
+  <img src="https://i.imgur.com/ik5qYyt.png" alt="Fluxo de testes automatizados">
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email: joice.jdosreis@gmail.com</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/seulinkedin" target="_blank">/seulinkedin</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Joice Meriele. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
